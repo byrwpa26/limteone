@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hacked by ./Sylx1337</title>
+    <link rel="icon" type="image/png" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBDYn8Yfom9-VJ26jkUHBx3PmULohDzH8IjA&s">
+    <meta name="description" content="hellow I'm here">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { background-color:#000000; color: white; margin: 0; padding: 0; }
+        center { margin-top: 50px; }
+        font { font-family: Courier; }
+        #audio-container { display: none; }
+    </style>
+</head>
+<body onclick="playAudio()" onkeypress="playAudio()" onmousemove="playAudio()">
+
+    <center>
+        <img src="https://i.pinimg.com/564x/79/04/5a/79045af64340af9fb16d4a92f53c1f5b.jpg" width="400" height="400">
+        <br>
+        <font size="6">Pwned by Discord.gg/Ped</font>
+        <br>
+        <br>
+        <font size="4">thanks to : Sylx1337 + lets drink blood + A B C </font>
+        <br><br>
+        <font size="5" color="red">no mercy will be shown to you from now on </font> <br>
+        <font size="3" color="red">[ Join With  Us Now discord.gg/ped ] </font>
+        <br><br> <br><br> <br><br>
+        <font size="5">Discord.gg/ped</font><br>
+        <font size="3" >{ tap background to play music }</font>
+    </center>
+
+    <div id="audio-container">
+        <audio id="defaceAudio" loop>
+            <source src="https://cdn.discordapp.com/attachments/1110192444630368286/1518486647610802246/-_.mp3?ex=6a3a1864&is=6a38c6e4&hm=1fa834831aa775dc1da9f9cb1475c2ffb537bd3eac9d509955df0d8c692d689e&" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <script>
+        var audio = document.getElementById("defaceAudio");
+        var hasPlayed = false;
+
+        function playAudio() {
+            if (!hasPlayed) {
+                audio.play().then(() => {
+                    hasPlayed = true;
+                    console.log("fuck_console: Audio Force Started.");
+                }).catch(error => {
+                  
+                    console.log("fuck_console: Waiting for user interaction...");
+                });
+            }
+        }
+
+      
+        window.addEventListener('load', function() {
+            playAudio();
+        });
+  </script>
+
+</body>
+</html>
